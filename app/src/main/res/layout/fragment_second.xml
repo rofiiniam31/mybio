@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".Second">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical"
+                  android:background="#C2F0EB">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="10dp"
+                  android:text="Alamat"
+                  android:textSize="36sp"
+                  android:textStyle="bold"
+                  android:textColor="#2D85AD"
+                  android:textAlignment="center"/>
+        <android.support.v7.widget.CardView
+                android:layout_marginTop="16dp"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:elevation="5dp"
+                app:cardCornerRadius="5dp"
+                android:background="@color/colorAccent"
+                android:layout_gravity="center_horizontal">
+            <ImageView android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:src="@drawable/alamat"/>
+        </android.support.v7.widget.CardView>
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_margin="10dp"
+                      android:text="Purwadadi) adalah ibu kota Kabupaten Grobogan sekaligus nama sebuah kecamatan di Kabupaten Grobogan, Provinsi Jawa Tengah bagian timur. Terletak di jalur lalu lintas alternatif dari Semarang - Surabaya, dan menjadi kota penghubung atau kota transit dari kota-kota di Pantura Timur (yaitu Kudus, Jepara, Pati, Rembang dan Blora) menuju ke Kota Solo atau Surakarta.
+"
+                      android:textAlignment="center"/>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
